@@ -1,10 +1,14 @@
 import React from "react";
-import Food from "./Components/Food";
+import Header from "./Components/Header";
+import Body from "./Components/Body";
+import FooterPart from "./Components/FooterPart";
 
 export default function App() {
   return (
     <>
-      <Food />
+      <Header />
+      <Body />
+      <FooterPart />
     </>
   );
 }
